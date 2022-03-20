@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Summary: Latitude vs X</title>
+
+
+   <!-- Bring in our bootstrap stylesheet -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+   <link rel="stylesheet" href="style.css"> 
+
+</head>
+
+<body>
+    
+    
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Latitude</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Max Temperature</a></li>
+              <li><a class="dropdown-item" href="#">Humidity</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Cloudiness</a></li>
+              <li><a class="dropdown-item" href="#">Wind Speed</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Pages\Comparison.html">Comparison</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="Pages\Data.html">Data</a>
+          </li>
+          
+          
+
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+      
+      </div>
+    </div>
+  </nav>
+
+
+  
+
+  <div class="container-fluid">
+    <section class="row">
+      
+        <div class="col-md-8">
+          <div class="landing1">
+            <h1 class="summary_title">Summary: Latitude vs. X</h1>
+            <hr>
+
+              <div>
+                <!--First image-->
+                <div class="summary_page">
+                  <img src="Resources\assets\images\Fig1.png" WIDTH="550" HEIGHT="400"ALIGN="left" />
+                  <p class="summary">The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.<br><br> After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of anytrends and correlations witnessed.</p> 
+          
+                </div>
+              </div> 
+          </div> 
+        </div>
+    
+
+    
+      <div class="col-md-4">
+        <section id="visualization_box">
+          <div class="visualization_content">
+            <div class="landing2">
+              <h2 class="summary_title">Visualizations</h2>
+              <hr>
+
+              <div class="first_images">
+                <a href="Pages\Visualization_fig1.html">
+                  <img src="Resources\assets\images\Fig1.png" WIDTH="270" HEIGHT="250" alt="fig1">
+                </a>
+                <a href="Pages\Visualization_fig2.html">
+                  <img src="Resources\assets\images\Fig2.png" WIDTH="270" HEIGHT="250" alt="fig2">
+                </a>
+                <a href="Pages\Visualization_fig3.html">
+                  <img src="Resources\assets\images\Fig3.png" WIDTH="270" HEIGHT="250" alt="fig3">
+                </a>
+                <a href="Pages\Visualization_fig1.htm4">
+                  <img src="Resources\assets\images\Fig4.png" WIDTH="270" HEIGHT="250" alt="fig4">
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+  </div>
+
+
+
+
+
+
+
+
+
+</body>
+
+
+<!-- <img src=”IMAGE URL” align=”left” style=”margin: 0px 10px 0px 0px;” /><p>Your text goes here.</p> -->
+</html>
