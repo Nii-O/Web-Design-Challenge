@@ -9,61 +9,42 @@ header {
 }
 .landing1{
     background: white;
-    margin-left: 50px;
-    height: 100%
+    
 }
 .landing2{
     background: white;
-    margin-right: 20px;
+    
 }
 .landing3{
-    background: white;
-    margin-left: 100px;
-    height: 120%;
-    width: 800px;
+    background: white
 }
 .landing4{
-    background: white;
-    margin-left: -90px;
-    margin-right:100px;
-    /* height: 110%; */
-    width: 530px
-
+    background: white
 }
 
 .summary_title {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
     /* Change the size of your font to 60 pixels high. */
-    font-size: 60px;
+    font-size: 50px;
     /* This will color the heading font white. */
     color: rgb(13, 182, 182);
-    /* Align the text to the center of its enclosing element (e.g. div). */
-    text-align: left;
     /* The background of the heading element will now be black. */
     background-color: white;
     /* Bold the text. */
     font-weight: bold;
-    /*Left margin on header*/
-    margin-left: 50px;
-    margin-top: 40px;
-    margin-bottom: 50px;
+   
   }
 .comparison_head{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
     /* Change the size of your font to 60 pixels high. */
-    font-size: 60px;
+    font-size: 50px;
     /* This will color the heading font white. */
     color: rgb(13, 182, 182);
-    /* Align the text to the center of its enclosing element (e.g. div). */
-    text-align: left;
     /* The background of the heading element will now be black. */
     background-color: white;
     /* Bold the text. */
     font-weight: bold;
-    margin-top: 40px;
-    margin-bottom: 50px;
+    
 }
 .visualizattion_title{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -73,17 +54,17 @@ header {
     /* This will color the heading font white. */
     color: rgb(13, 182, 182);
     /* Align the text to the center of its enclosing element (e.g. div). */
-    text-align: left;
+    /* text-align: left; */
     /* The background of the heading element will now be black. */
     background-color: white;
     /* Bold the text. */
     font-weight: bold;
-    margin-top: 40px;
+    /* margin-top: 40px;
     margin-bottom: 50px;
     margin-left: 50px;
     margin-right:50px;
-}
-.summary{
+} */}
+.summary {
     text-align: center;
     font-size: 30px;
     color: grey;
@@ -109,7 +90,7 @@ li {
 }
 
 li:hover{
-    background-color: rgb(13, 182, 182);
+    background-color: rgb(197, 195, 195);
     
 }
 .center {
