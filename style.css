@@ -93,10 +93,9 @@ li:hover{
     background-color: rgb(197, 195, 195);
     
 }
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
+.navbar-brand{
+    background:rgb(13, 182, 182);
+    font-size: 30px;
+    font-weight: bold
+}
 
